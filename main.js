@@ -26,30 +26,6 @@ const namesArray = ["aiman", "nas", "ralf"];
 /* ------------------------------ Remove Vowels ----------------------------- */
 
 const removeVowels = (array) => {
-  //   const onlyConsonantsArray = array.filter((letter) => {
-  //     switch (letter) {
-  //         case "a":
-  //             false;
-  //             break;
-  //         case "e":
-  //             false;
-  //             break;
-  //         case "i":
-  //             false;
-  //             break;
-  //         case "o":
-  //             false;
-  //             break;
-  //         case "u":
-  //             false;
-  //             break;
-  //         default:
-  //             true;
-  //             break;
-  //     }
-  //   });
-  //   return onlyConsonantsArray;
-
   const vowels = ["a", "e", "i", "o", "u"];
   console.log(vowels.indexOf("m"));
   console.log(vowels.indexOf("a"));  
