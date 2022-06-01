@@ -88,13 +88,30 @@
 
 /* -------------------------------- Scrabble -------------------------------- */
 
-const calculateScrabbleScore = (scrabbleWord) => {
-    const scrabbleLettersValues = scrabbleWord.map(letter => Object.values(letter)[1]);
-    const totalWordScore = scrabbleLettersValues.reduce((total, currentValue) => {
-        return total + currentValue;
-    })
-    return totalWordScore;
-}
+// const calculateScrabbleScore = (scrabbleWord) => {
+//     const scrabbleLettersValues = scrabbleWord.map(letter => Object.values(letter)[1]);
+//     const totalWordScore = scrabbleLettersValues.reduce((total, currentValue) => {
+//         return total + currentValue;
+//     })
+//     return totalWordScore;
+// }
 
-const inputArray = [{ letter: "a", value: 1}, { letter: "k", value: 5}, { letter: "c", value: 3}];
-console.log(calculateScrabbleScore(inputArray));
+// const inputArray = [{ letter: "a", value: 1}, { letter: "k", value: 5}, { letter: "c", value: 3}];
+// console.log(calculateScrabbleScore(inputArray));
+
+/* -------------------------- 3. Arrays and Objects ------------------------- */
+
+/* -------------------------------- Mi to Km -------------------------------- */
+
+// const convertMiToKm = (array) => {
+//     const KmArray = array.map(miles => miles * 1.60934);
+
+//     const TotalKm = KmArray.reduce((total, currentValue) => {
+//         return total + currentValue;
+//     });
+
+//     return `{convertedKM: [${KmArray}], totalKM: ${TotalKm}}`;
+// }
+
+// const inputArray = [10, 5];
+// console.log(convertMiToKm(inputArray));
