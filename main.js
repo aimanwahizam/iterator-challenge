@@ -115,3 +115,55 @@
 
 // const inputArray = [10, 5];
 // console.log(convertMiToKm(inputArray));
+
+/* ------------------------------- Filter Food ------------------------------ */
+
+// const filterFoodByType = (array, filter) => {
+//   const filteredFoods = array.filter((food) => {
+//     if (food.foodType === filter) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   });
+//   return filteredFoods;
+// };
+
+// const inputArray = [
+//   { img: "🍕", name: "pizza", foodType: "junk" },
+//   { img: "🍔", name: "burger", foodType: "junk" },
+//   { img: "🍟", name: "fries", foodType: "junk" },
+//   { img: "🌭", name: "hot dog", foodType: "junk" },
+//   { img: "🥗", name: "salad", foodType: "healthy" },
+//   { img: "🥙", name: "pita", foodType: "healthy" },
+//   { img: "🥪", name: "sandwich", foodType: "healthy" },
+//   { img: "🌯", name: "burrito", foodType: "healthy" },
+//   { img: "🥣", name: "soup", foodType: "healthy" },
+// ];
+
+// console.log(filterFoodByType(inputArray, "junk"));
+// console.log(filterFoodByType(inputArray, "healthy"));
+
+/* ----------------------------- We cab be Heros ---------------------------- */
+
+// const createHeroObject = (array) => {
+//     const HeroObjects = array.map(hero => {
+//         const heroId = array.indexOf(hero);
+//         const heroName = hero.name;
+//         const power = Math.floor(Math.random() * 10);
+
+//         return `{id: ${heroId}, hero: ${heroName}, power: ${power}}`;
+//     })
+
+//     return HeroObjects;
+// };
+
+// const inputArray = [
+//   { name: "Spider-Man" },
+//   { name: "Thor" },
+//   { name: "Black Panther" },
+//   { name: "Captain Marvel" },
+//   { name: "Silver Surfer" },
+// ];
+
+// console.log(createHeroObject(inputArray));
